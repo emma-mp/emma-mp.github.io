@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.homePage {
+    outline: 2px dashed blue;
+    background-image: linear-gradient(white, #a2e2e8)
+}
+
+.nameText {
+    padding-top: 15%;
+    color: #a1a1a1;
+    text-shadow: 2px 2px #464e7d;
+}
+
+.portfolioText {
+    color: white;
+    text-shadow: 2px 2px #464e7d;
+}
+
+.cloudOne {
+    width: 30%;
+    height: 5%;
+    margin: 0px;
+}
+
+.cloudTwo {
+    width: 30%;
+    height: 5%;
+    padding-left: 15%
+}
+
+.cloudThree {
+    width: 30%;
+    height: 5%;
+    float: right;
+}
+
+.street {
+    background-image: url("./images/carBackground.png");
+    background-size: cover;
+}
+
+.cars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10%;
+    padding-bottom: 4%;
+
+}
